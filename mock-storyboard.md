@@ -1,64 +1,43 @@
-# Mock Storyboard
+# Sample storyboard format (reference for AI agents)
 
-**Title:**  
-*(e.g. Chapter 3: The Water Cycle)*
-
-**Character / style:**  
-*(e.g. Minimalist stick figure, adult; or paste your character block)*
+**Storyboard: Emotions and Stress at a Campfire**
 
 ---
 
-## Start scene
+## Scene 1: Calm context – positive emotional state
 
-**Title:**  
-*(e.g. Sun heats the ocean)*
+**Setting**
+A nighttime forest campsite. The camera is fixed at a medium-wide angle. A small campfire sits at the center of the clearing, surrounded by stones. Tall trees and dense bushes form a dark background. A tent is visible in the distance. The lighting is soft and warm from the fire, with the surrounding forest remaining dim.
 
-**Visual description (for OpenArt):**  
-*(One paragraph: setting, character, action, mood. Will be prefixed with "Storyboard style: " for OpenArt.ai)*
+**Character and objects**
+A boy kneels beside the campfire, holding a stick with two marshmallows over the flames. He wears a hoodie and a small backpack. His posture is relaxed, shoulders lowered, body leaning slightly toward the fire. His facial expression is happy and calm, with a gentle smile. The marshmallows are lightly browning. The fire flickers slowly.
 
----
+**Emotional state being conveyed**
+The scene communicates a calm environment associated with positive affect. There are no sudden movements or ambiguous stimuli. The boy's attention is focused on the marshmallow and the fire.
 
-## Scene 2
+**Animation notes**
+Subtle fire flicker only. No camera movement. No zoom. No pan.
 
-**Title:**  
-
-**Visual description (for OpenArt):**  
-
----
-
-## Scene 3
-
-**Title:**  
-
-**Visual description (for OpenArt):**  
+**Text overlay (optional)**
+e.g. "Calm" or leave blank.
 
 ---
 
-## Scene 4
+## Scene 2: Sudden fear trigger – acute stress response
 
-**Title:**  
+**Setting**
+The same campsite, same camera angle, same lighting conditions. The campfire and surrounding objects remain in the same positions to maintain continuity.
 
-**Visual description (for OpenArt):**  
+**Character and objects**
+The boy is still kneeling by the fire and holding the marshmallow stick. His posture changes abruptly: shoulders tense, torso pulls back slightly, and his head turns toward the trees. His facial expression shifts to fear, with widened eyes and an open mouth. The marshmallow stick tilts upward slightly as his grip tightens.
 
----
+In the dark foliage behind him, a pair of owl eyes becomes visible between tree branches. Only the glowing eyes are visible; the rest of the owl remains hidden in shadow. The eyes reflect the firelight subtly, creating a clear but non-exaggerated threat cue.
 
-## End scene
+**Emotional state being conveyed**
+The scene illustrates an immediate fear response triggered by an unexpected environmental cue. The focus is on rapid emotional appraisal and bodily tension rather than exaggerated movement.
 
-**Title:**  
-*(e.g. Rain falls on the land)*
+**Animation notes**
+Owl eyes appear or become noticeable in the darkness. The boy freezes in a startled posture. Fire continues to flicker gently. No camera movement. No zoom. No pan.
 
-**Visual description (for OpenArt):**  
-
----
-
-## OpenArt prompts (copy-paste)
-
-| Scene   | Prompt |
-|--------|--------|
-| Start  | `Storyboard style: ` |
-| 2      | `Storyboard style: ` |
-| 3      | `Storyboard style: ` |
-| 4      | `Storyboard style: ` |
-| End    | `Storyboard style: ` |
-
-*(Fill the prompts with the visual descriptions above, or paste generated prompts from the app.)*
+**Text overlay (optional)**
+e.g. "Fear response" or leave blank.

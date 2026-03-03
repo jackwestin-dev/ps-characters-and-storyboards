@@ -34,3 +34,6 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# cloned Gemini CLI repo (optional; see docs/GEMINI-CLI-FROM-REPO.md)
+/gemini-cli-repo

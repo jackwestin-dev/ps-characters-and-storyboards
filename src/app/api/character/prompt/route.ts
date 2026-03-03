@@ -37,7 +37,7 @@ export async function POST(request: Request) {
       const prompt = `You are an expert at writing image prompts for consistent character generation. Below is a full visual style guide for a character (e.g. minimalist stick figure). Turn it into ONE concise "character block" paragraph (under 120 words) that will be prepended to every scene prompt. Preserve every visual rule: body style, outlines, colors, face, clothing, age/size scaling notes. No dialogue or story—only visual description. Output ONLY the character block, nothing else.
 
 Style guide:
-${styleGuide.trim()}`;
+${(styleGuide ?? "").trim()}`;
 
       const message = await client.messages.create({
         model: "claude-sonnet-4-20250514",
